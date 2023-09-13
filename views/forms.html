@@ -1,0 +1,72 @@
+ <!DOCTYPE html>
+ <html lang="en">
+
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+          background-image: url('https://www.pixelstalk.net/wp-content/uploads/2016/09/All-White-Background-for-Desktop.jpg');
+          background-repeat: no-repeat;
+        }
+
+        </style>
+    <title>Formulario Datos</title>
+ </head>
+ <body>
+
+
+ 
+        <form name = "Formulario" action="../indice.html" method="post">
+            <h2><img src="https://img.icons8.com/officel/16/user.png"> Dátos Basicos</h2>
+            <label for="describirPerfil">Describa su perfil</label>
+            <input type="text" id="describirPerfil" name="describirPerfil">
+            <br>
+            <label for="tipoIdentificacion">Tipo de identificación:</label>
+            <select name="tipoIdentificacion" id="tipoIdentificacion" pla>
+                <option value="" disabled selected>Seleccione un Tipo de Documento</option>
+                <option value="CC">CC</option>
+                <option value="TI">TI</option>
+                <option value="Pasaporte">Pasaporte</option>
+                <option value="CE">CE</option>
+                </select>
+            <br>
+            <label for="numeroIdentificacion">Numero de identificación:</label>
+            <input type="number" id="numeroIdentificacion" name="numeroIdentificacion">
+            <br>
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" name="apellidos">
+            <br>
+            <label for="nombres">Nombres:</label>
+            <input type="text" id="nombres" name="nombres">
+            <br>
+            <label for="genero">Género:</label>
+            <input type="radio" name="genero" value="Masculino"> Masculino
+        <input type="radio" name="genero" value="Femenino"> Femenino
+
+            <br>
+            <label for="estadoCivil">Estado Civil:</label>
+            <input type="radio" name="estadoCivil" value="Soltero"> Soltero
+            <input type="radio" name="estadoCivil" value="Casado"> Casado
+            <input type="radio" name="estadoCivil" value="Unión Libre"> Unión Libre
+            <input type="radio" name="estadoCivil" value="Viudo(a)"> Viudo(a)
+            
+            <br>
+            <label for="telefonoContacto">Número telefónico de contacto:</label>
+            <input type="text" id="telefonoContacto" name="telefonoContacto">
+            <br>
+            <label for="direccionResidencia">Dirección de tu residencia:</label>
+            <input type="text" id="direccionResidencia" name="direccionResidencia">
+            <br>
+            <label for="correoContacto">Correo electrónico de contacto:</label>
+            <input type="text" id="correoContacto" name="correoContacto" placeholder="usuario@dominio.com">
+            <br>
+            
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Reestablecer">
+        </form>
+
+
+ </body>
+ </html>
+ 
