@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Agencia</title>
+</head>
+<body>
+    <header>
+      <h1>Bienvenido a mi pagina web</h1>
+        <nav>
+            <ul>
+                <li><a href="#indice">Indice</a></li>
+                <li><a href="#acercade">Acerca de</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#portafolio">Portafolio</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="calendario (1).html">Calendario</a></li>
+		<li><a href="pagina1.html">Ir a Página 1</a></li>
+        <li><a href="http://www.google.com">Google</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="indice">
+        <h2>Indice</h2>
+        <p>Bienvenido a la pagina web, esta es la pagina principal.</p>
+    </section>
+    
+    <section id="acercade">
+        <h2>Acerca de</h2>
+        <p>Desarrollador web con experiencia en HTML.</p>
+    </section>
+    
+    <section id="servicios">
+        <h2>Servicios</h2>
+        <ul>
+            <li>Diseño Web</li>
+            <li>Desarrollos Front-end</li>
+            <li>Desarrollo Backend</li>
+            <li>Diseño Responsive</li>
+        </ul>
+    </section>
+    
+    <section id="Portafolio">
+        <h2>Portafolio</h2>
+        <div class="portfolio-item">
+            <img src="https://th.bing.com/th/id/OIP.KDmaLuTWB86uxBfIQGGaRQHaEK?pid=ImgDet&rs=1" alt="Proyecto 1">
+            <p>Proyecto 1: Desarrollo web.</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="https://th.bing.com/th/id/R.5d7dc80519c4198009de7a64eeeeaa6b?rik=NuAIirMmhJ4ZxA&pid=ImgRaw&r=0" alt="Proyecto 2">
+            <p>Proyecto 2: Desarrollo web.</p>
+        </div>
+    </section>
+    
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Llena el form de abajo para ponerte en contacto conmigo:</p>
+        <form action="contacto.php" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+            <br>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+    
+    <footer>
+      <p>&copy; 2023 Juan Ortiz</p>
+    </footer>
+</body>
+</html>
